@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/digitalbazaar/bedrock-requirejs/issues"
   },
-  "homepage": "https://github.com/digitalbazaar/bedrock-requirejs"
+  "homepage": "https://github.com/digitalbazaar/bedrock-requirejs",
+  "dependencies": {
+    "bower-requirejs": "~1.1.2"
+  },
+  "peerDependencies": {
+    "bedrock": "~0.3.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/requirejs"
 }

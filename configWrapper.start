@@ -1,0 +1,18 @@
+/*!
+ * RequireJS config.
+ *
+ * Copyright (c) 2012-2015 Digital Bazaar, Inc. All rights reserved.
+ *
+ * @author Dave Longley
+ */
+(function(require) {
+
+'use strict';
+
+// define console.log for IE
+if(typeof window !== 'undefined') {
+  window.console = window.console || {};
+  window.console.log = window.console.log || function() {};
+}
+
+require.config(
