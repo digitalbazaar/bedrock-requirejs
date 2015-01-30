@@ -2,7 +2,7 @@
   "name": "bedrock-requirejs",
   "version": "0.0.1",
   "description": "Bedrock RequireJS module",
-  "main": "index.js",
+  "main": "./lib/requirejs",
   "scripts": {
     "test": "node test.js"
   },
@@ -24,13 +24,14 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-requirejs",
   "dependencies": {
-    "bower-requirejs": "~1.1.2"
+    "bower-requirejs": "~1.1.2",
+    "requirejs": "~2.1.15",
+    "temp": "~0.8.1"
   },
   "peerDependencies": {
     "bedrock": "~0.3.0"
   },
   "directories": {
     "lib": "./lib"
-  },
-  "main": "./lib/requirejs"
+  }
 }
