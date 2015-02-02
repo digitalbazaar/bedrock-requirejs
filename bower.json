@@ -1,0 +1,7 @@
+{
+  "name": "bedrock-requirejs",
+  "description": "Bedrock RequireJS bower dependencies.",
+  "dependencies": {
+    "almond": "~0.3.0"
+  }
+}
