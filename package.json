@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-requirejs",
   "dependencies": {
+    "async": "~0.9.0",
     "bower-requirejs": "~1.1.2",
     "requirejs": "~2.1.15",
     "temp": "~0.8.1",
