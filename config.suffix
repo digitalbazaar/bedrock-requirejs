@@ -1,3 +1,18 @@
-);
+;
+
+// hack to support degenerate `toUrl` in almond
+if(!require.toUrl) {
+  require.toUrl = function(path) {
+    if(path.indexOf('./') === 0) {
+      path = path.substr(2);
+    }
+    if(path[0] !== '/') {
+      path = '/' + path;
+    }
+    return path;
+  };
+}
+
+require.config(config);
 
 })(require);

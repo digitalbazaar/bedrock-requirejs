@@ -15,4 +15,4 @@ if(typeof window !== 'undefined') {
   window.console.log = window.console.log || function() {};
 }
 
-require.config(
+var config =
