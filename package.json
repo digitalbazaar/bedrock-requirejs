@@ -34,7 +34,8 @@
     "bower-requirejs": "~1.1.2",
     "requirejs": "~2.1.15",
     "temp": "~0.8.1",
-    "uglify-js": "~2.4.16"
+    "uglify-js": "~2.4.16",
+    "underscore": "~1.7.0"
   },
   "peerDependencies": {
     "bedrock": "~0.3.0"
