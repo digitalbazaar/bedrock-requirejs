@@ -1,5 +1,7 @@
 # bedrock-requirejs ChangeLog
 
+## [Unreleased]
+
 ## [0.1.3] - 2015-02-23
 
 ### Added
