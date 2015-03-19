@@ -66,7 +66,7 @@ To load the auto-detected and configured modules, an HTML page includes
 [RequireJS][] is installed via [bower][], the HTML could look like this:
 
 ```html
-<script data-main="/requirejs/main.js" src="/bower-components/requirejs/require.js"></script>
+<script data-main="/requirejs/main.js" src="/bower_components/requirejs/require.js"></script>
 ```
 
 **bedrock-requirejs** also includes an API for running [RequireJS][]'s
