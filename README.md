@@ -31,7 +31,18 @@ TODO: API examples
 
 ## Configuration
 
-For documentation on configuration, see [config.js](https://github.com/digitalbazaar/bedrock-requirejs/blob/master/lib/config.js).
+**bedrock-requirejs** uses [bedrock][]'s configuration to expose its own
+options and to expose a base [RequireJS][] configuration for your application.
+The base [RequireJS][] configuration can be found at
+`bedrock.config.requirejs.config`. There is also a base [RequireJS][]
+optimization configuration, which is used when using the `optimize` API; it
+is found at `bedrock.config.requirejs.optimize.config`. These configurations
+are used as a base on which any auto-generated configuration will be layered.
+Any custom configuration information will not be overridden.
+
+All other configuration variables are specific to **bedrock-requirejs** and
+more documentation about their usage can be found in
+[config.js](https://github.com/digitalbazaar/bedrock-requirejs/blob/master/lib/config.js).
 
 ## How It Works
 
