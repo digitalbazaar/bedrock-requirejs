@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Changed
+- **BREAKING**: Changed frontend event names from `bedrock.requirejs.*` to
+  `bedrock-requirejs.*`. Changed `bedrock-requirejs.bootstrap` to
+  `bedrock-requirejs.init`.
+
 ## [0.1.3] - 2015-02-23
 
 ### Added
