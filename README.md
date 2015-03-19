@@ -167,6 +167,7 @@ in `bedrock.config.requirejs.autoload`. The following events are emitted:
 [almond]: https://github.com/jrburke/almond
 [bedrock]: https://github.com/digitalbazaar/bedrock
 [bedrock-angular]: https://github.com/digitalbazaar/bedrock-angular
+[bedrock-express]: https://github.com/digitalbazaar/bedrock-express
 [bedrock-views]: https://github.com/digitalbazaar/bedrock-views
 [bower]: http://bower.io/
 [ng-annotate]: https://github.com/olov/ng-annotate
