@@ -47,6 +47,19 @@ require('bedrock-views');
 bedrock.start();
 ```
 
+<!-- TODO: example of installing a non-bedrock bower component and using
+it with bedrock-requirejs -->
+
+<!-- TODO: example of installing a bower component that needs some extra
+configuration and using it with bedrock-requirejs -->
+
+<!-- TODO: example of configuring a module that isn't installed via bower
+and using it with bedrock-requirejs, one example using the package config
+and one using the shim config -->
+
+<!-- TODO: example of doing some early initialization code via the events
+module -->
+
 <!-- TODO: API examples
 
 brRequire.buildConfigSync
