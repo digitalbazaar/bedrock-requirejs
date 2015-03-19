@@ -17,17 +17,43 @@ optimizing (bundling and minifying) your client-side JavaScript.
 npm install bedrock-requirejs
 ```
 
+Start a simple express server with **bedrock-requirejs** support:
+
 ```js
-var brRequire = require('bedrock-requirejs');
+var bedrock = require('bedrock');
 
-TODO: API examples
+require('bedrock-express');
+require('bedrock-requirejs');
+require('bedrock-server');
 
-// brRequire.buildConfigSync
-// brRequire.wrapConfigSync
-// brRequire.wrapConfig
-// brRequire.readBowerPackagesSync
-// brRequire.optimize
+bedrock.start();
 ```
+
+Start an express server with **bedrock-requirejs** support and an [AngularJS][]
+frontend:
+
+```
+bower install bedrock-angular
+```
+
+```js
+var bedrock = require('bedrock');
+
+require('bedrock-express');
+require('bedrock-requirejs');
+require('bedrock-server');
+require('bedrock-views');
+
+bedrock.start();
+```
+
+<!-- TODO: API examples
+
+brRequire.buildConfigSync
+brRequire.wrapConfigSync
+brRequire.wrapConfig
+brRequire.readBowerPackagesSync
+brRequire.optimize -->
 
 ## Configuration
 
@@ -186,4 +212,5 @@ in `bedrock.config.requirejs.autoload`. The following events are emitted:
 [bedrock-views]: https://github.com/digitalbazaar/bedrock-views
 [bower]: http://bower.io/
 [ng-annotate]: https://github.com/olov/ng-annotate
+[AngularJS]: https://github.com/angular/angular.js
 [RequireJS]: http://requirejs.org/
