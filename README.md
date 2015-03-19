@@ -49,7 +49,10 @@ bower components directory when [bedrock][] starts. The value of
 the bower components directory; it defaults to `bower_components`. Using the
 results of the scan and any manually configured options, **bedrock-requirejs**
 generates a [RequireJS][] project configuration that it serves via
-[bedrock-express][] using the route `/requirejs/main.js`.
+[bedrock-express][] using the route `/requirejs/main.js`. **bedrock-requirejs**
+also serves your bower components directory via the URL specified in
+`bedrock.config.requirejs.bower.componentsUrl`, which defaults to
+`/bower-components`.
 
 Manually configured options can be specified via
 `bedrock.config.requirejs.config`, which is a basic [RequireJS][] configuration
@@ -66,7 +69,7 @@ To load the auto-detected and configured modules, an HTML page includes
 [RequireJS][] is installed via [bower][], the HTML could look like this:
 
 ```html
-<script data-main="/requirejs/main.js" src="/bower_components/requirejs/require.js"></script>
+<script data-main="/requirejs/main.js" src="/bower-components/requirejs/require.js"></script>
 ```
 
 **bedrock-requirejs** also includes an API for running [RequireJS][]'s
