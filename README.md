@@ -81,7 +81,7 @@ Any custom configuration information will not be overridden.
 
 All other configuration variables are specific to **bedrock-requirejs** and
 more documentation about their usage can be found in
-[config.js](https://github.com/digitalbazaar/bedrock-requirejs/blob/master/lib/config.js).
+[config.js](./lib/config.js).
 
 ## How It Works
 
