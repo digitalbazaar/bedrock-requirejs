@@ -55,7 +55,60 @@ configuration and using it with bedrock-requirejs -->
 
 <!-- TODO: example of configuring a module that isn't installed via bower
 and using it with bedrock-requirejs, one example using the package config
-and one using the shim config -->
+and one using the shim config
+
+// this example:
+config.requirejs.bower.packages.push({
+  path: path.join(__dirname, 'example'),
+  manifest: {
+    name: 'example',
+    moduleType: 'amd',
+    main: './example.js',
+  }
+});
+// will do this, in effect:
+config.requirejs.config.packages.push({
+  name: 'example',
+  main: './example.js',
+  location: '/bower-components/example'
+});
+config.requirejs.optimize.config.packages.push({
+  name: 'example',
+  main: './example.js',
+  location: path.join(__dirname, 'example')
+});
+config.express.static.push({
+  route: '/bower-components/example',
+  path: path.join(__dirname, 'example')
+});
+config.requirejs.autoload.push('example');
+
+// this example:
+config.requirejs.bower.packages.push({
+  path: path.join(__dirname, 'example'),
+  manifest: {
+    name: 'example',
+    moduleType: 'globals',
+    main: './example.js',
+    // note: if using bedrock-views and you want angular template
+    // optimization, you must include angular as a dependency if you
+    // want auto-template detection and minification
+    dependencies: {
+      jquery: '~2.0.0'
+    }
+  }
+});
+// will do this, in effect:
+config.express.static.push({
+  route: '/bower-components/example',
+  path: path.join(__dirname, 'example')
+});
+config.requirejs.autoload.push('example');
+config.requirejs.config.paths.example = '/bower-components/example';
+config.requirejs.config.shim.example = {exports: 'example', deps: ['jquery']};
+config.requirejs.optimize.config.paths.example =
+  path.join(__dirname, 'example');
+-->
 
 <!-- TODO: example of doing some early initialization code via the events
 module -->
