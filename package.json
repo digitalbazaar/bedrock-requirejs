@@ -1,6 +1,6 @@
 {
   "name": "bedrock-requirejs",
-  "version": "0.1.4-dev",
+  "version": "1.0.0",
   "description": "Bedrock RequireJS module",
   "main": "./lib/requirejs",
   "scripts": {
@@ -38,7 +38,7 @@
     "underscore": "~1.7.0"
   },
   "peerDependencies": {
-    "bedrock": "~0.3.0"
+    "bedrock": "^1.0.0"
   },
   "directories": {
     "lib": "./lib"

@@ -2,10 +2,18 @@
 
 ## [Unreleased]
 
+## [1.0.0] - 2015-04-08
+
+### Added
+- Feature to allow custom configuration of bower packages.
+
 ### Changed
 - **BREAKING**: Changed frontend event names from `bedrock.requirejs.*` to
   `bedrock-requirejs.*`. Changed `bedrock-requirejs.bootstrap` to
   `bedrock-requirejs.init`.
+
+### Fixed
+- Various path handling issues for optimized and un-optimized setups.
 
 ## [0.1.3] - 2015-02-23
 
@@ -46,7 +54,8 @@ config.requirejs.autoload.push('example');
 
 - See git history for changes.
 
-
-[Unreleased]: https://github.com/digitalbazaar/bedrock-requirejs/compare/0.1.2...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/digitalbazaar/bedrock-requirejs/compare/0.1.3...1.0.0
+[0.1.3]: https://github.com/digitalbazaar/bedrock-requirejs/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/digitalbazaar/bedrock-requirejs/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/digitalbazaar/bedrock-requirejs/compare/0.1.0...0.1.1
