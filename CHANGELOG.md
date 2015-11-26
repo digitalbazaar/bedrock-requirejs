@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2015-11-25
+
+### Added
+- Custom bower packages configurations can now specify manifest as a path
+  to a `bower.json` file.
+
 ## [1.0.1] - 2015-09-28
 
 ### Changed
@@ -59,7 +65,8 @@ config.requirejs.autoload.push('example');
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.0.1...1.1.0
 [1.0.1]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/digitalbazaar/bedrock-requirejs/compare/0.1.3...1.0.0
 [0.1.3]: https://github.com/digitalbazaar/bedrock-requirejs/compare/0.1.2...0.1.3
