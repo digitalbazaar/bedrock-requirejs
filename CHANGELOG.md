@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.1.1] - 2016-02-16
+
+### Changed
+- Switched from underscore to lodash.
+- Updated dependencies.
+
 ## [1.1.0] - 2015-11-25
 
 ### Added
@@ -65,7 +71,8 @@ config.requirejs.autoload.push('example');
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.1.1...HEAD
+[1.1.1]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.0.1...1.1.0
 [1.0.1]: https://github.com/digitalbazaar/bedrock-requirejs/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/digitalbazaar/bedrock-requirejs/compare/0.1.3...1.0.0
