@@ -11,6 +11,10 @@ optimizing (bundling and minifying) your client-side JavaScript.
 **bedrock-requirejs** is often coupled with [bedrock-views][] and
 [bedrock-angular][] to provide frontend UIs.
 
+## Requirements
+
+- npm v3+
+
 ## Quick Examples
 
 ```
