@@ -1,6 +1,6 @@
 {
   "name": "bedrock-requirejs",
-  "version": "2.0.1",
+  "version": "2.0.2-dev",
   "description": "Bedrock RequireJS module",
   "main": "./lib/requirejs",
   "scripts": {
