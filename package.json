@@ -30,7 +30,6 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-requirejs",
   "dependencies": {
     "async": "^1.5.2",
-    "bedrock": "^1.0.0",
     "bower": "^1.7.2",
     "bower-requirejs": "^1.2.0",
     "lodash": "^4.0.0",
