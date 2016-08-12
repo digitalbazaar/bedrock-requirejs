@@ -38,7 +38,8 @@
     "uglify-js": "^2.6.1"
   },
   "peerDependencies": {
-    "bedrock": "^1.0.0"
+    "bedrock": "^1.0.0",
+    "bedrock-docs": "^2.0.1"
   },
   "directories": {
     "lib": "./lib"
