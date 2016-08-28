@@ -1,6 +1,9 @@
 # bedrock-requirejs ChangeLog
 
-## [Unreleased]
+## 2.0.3 - 2016-08-28
+
+### Changed
+- Hide require.js endpoints from bedrock-docs.
 
 ## [2.0.2] - 2016-05-11
 
