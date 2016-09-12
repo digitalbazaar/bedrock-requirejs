@@ -1,5 +1,8 @@
 # bedrock-requirejs ChangeLog
 
+### Changed
+- Require bedrock-express.
+
 ## 2.0.3 - 2016-08-28
 
 ### Changed

@@ -39,7 +39,8 @@
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
-    "bedrock-docs": "^2.0.1"
+    "bedrock-docs": "^2.0.1",
+    "bedrock-express": "^2.0.6"
   },
   "directories": {
     "lib": "./lib"
