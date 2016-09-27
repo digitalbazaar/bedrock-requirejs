@@ -1,5 +1,10 @@
 # bedrock-requirejs ChangeLog
 
+## 2.1.0 - 2016-09-27
+
+### Added
+- Support for loading multiple configuration files.
+
 ### Changed
 - Require bedrock-express.
 
