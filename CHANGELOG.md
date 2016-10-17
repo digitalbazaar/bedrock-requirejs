@@ -1,5 +1,10 @@
 # bedrock-requirejs ChangeLog
 
+## 2.1.1 - 2016-10-17
+
+### Changed
+- Expose `require` globally.
+
 ## 2.1.0 - 2016-09-27
 
 ### Added
