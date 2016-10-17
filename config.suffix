@@ -15,4 +15,7 @@ if(!require.toUrl) {
 
 require.config(config);
 
+// expose `require` globally
+(0, eval)('this').require = require;
+
 })(require);
