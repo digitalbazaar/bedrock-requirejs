@@ -38,7 +38,7 @@
     "uglify-js": "^2.6.1"
   },
   "peerDependencies": {
-    "bedrock": "^1.0.0",
+    "bedrock": "^1.4.0",
     "bedrock-docs": "^2.0.1",
     "bedrock-express": "^2.0.6"
   },
