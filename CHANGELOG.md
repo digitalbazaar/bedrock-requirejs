@@ -1,5 +1,7 @@
 # bedrock-requirejs ChangeLog
 
+## 2.2.0 - 2016-12-09
+
 ### Changed
 - Update bedrock dependency.
 - Use computed config for optimization output path.
