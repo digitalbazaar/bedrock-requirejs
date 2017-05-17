@@ -35,7 +35,7 @@
     "lodash": "^4.0.0",
     "requirejs": "^2.1.15",
     "temp": "~0.8.3",
-    "uglify-js": "^2.6.1"
+    "uglify-js": "^3.0.7"
   },
   "peerDependencies": {
     "bedrock": "^1.4.0",
