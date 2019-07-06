@@ -9,7 +9,9 @@
     "postinstall": "bower install",
     "postupdate": "bower update",
     "bower-install": "bower install",
-    "bower-update": "bower update"
+    "bower-update": "bower update",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -35,7 +37,8 @@
     "lodash": "^4.0.0",
     "requirejs": "^2.1.15",
     "temp": "~0.8.3",
-    "uglify-js": "^2.6.1"
+    "uglify-js": "^2.6.1",
+    "snyk": "^1.192.3"
   },
   "peerDependencies": {
     "bedrock": "^1.4.0",
@@ -44,5 +47,6 @@
   },
   "directories": {
     "lib": "./lib"
-  }
+  },
+  "snyk": true
 }
